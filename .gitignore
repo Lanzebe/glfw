@@ -2,6 +2,10 @@
 build
 build-*
 
+# Directories
+.vs/
+bin/
+
 # Visual Studio clutter
 _ReSharper*
 *.sdf
