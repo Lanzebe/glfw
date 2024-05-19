@@ -4,8 +4,8 @@ project "GLFW"
 	staticruntime "off"
 	warnings "off"
 
-	targetdir ("bin/" .. OutputDir .. "/%{prj.name}")
-	objdir ("bin/intermediates/" .. OutputDir .. "/%{prj.name}")
+	targetdir ("lib/" .. OutputDir .. "/%{prj.name}")
+	objdir ("lib/intermediates/" .. OutputDir .. "/%{prj.name}")
 
 	files
 	{
