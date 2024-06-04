@@ -4,7 +4,7 @@ build-*
 
 # Directories
 .vs/
-bin/
+lib/
 
 # Visual Studio clutter
 _ReSharper*
