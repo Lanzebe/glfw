@@ -116,3 +116,6 @@ project "GLFW"
 		runtime "Release"
 		optimize "speed"
         symbols "off"
+
+	filter "action:vs*"
+		buildoptions { "/MP" }  -- Enable multi-process compilation
